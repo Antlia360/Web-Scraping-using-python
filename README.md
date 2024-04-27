@@ -84,10 +84,7 @@ This will run “python3 scraper.py” in a separate process.
 4. **Checker Script (checker.py):** This script will check the database and:
    - Report if all the database rows are populated (i.e., 'DONE_OR_NOT_DONE' is set to 0 and no process is working).
    - If all database rows are populated, print answers to the specified questions.
-   -   i. What are the years you chose?
-   -   ii. Which country was within top 3 for the maximum time in your database?
-   -   iii. What is the average number of athletes?
-
+   
 ## Implementation
 
 Here's a high-level overview of the implementation:
